@@ -1,3 +1,8 @@
 body{
-	background-image: url(povmonke.jpeg);
+	display: flex;
+	background-attachment: fixed;
+	background-image: url('povmonke.png');
+	background-repeat: no-repeat;
+	background-color: #cccccc;
+	color: silver;
 }
