@@ -1,8 +1,13 @@
 body{
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: auto;
+	
 	background-image: url('povmonke.png');
 	background-repeat: no-repeat;
 	background-color: #cccccc;
+	
+	height: 1900;
+	width: 940;
+	
 	color: silver;
 }
