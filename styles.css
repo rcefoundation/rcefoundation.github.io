@@ -2,7 +2,9 @@ body {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-image: url('povmonke.png');
-	
+	background-size: contain;
+	background-color: #161620;
+	width: 100%;
 	z-index: 1;
 }
 
@@ -20,8 +22,19 @@ body {
 
 #textcontent {
 	color: white;
+	text-align: center;
 	text-shadow: 2px 2px #000000;
-	padding: 30px;
-	margin: 10px;
+	padding: 150px;
 	z-index: 3;
+}
+
+footer {
+	z-index: 5;
+	position: sticky;
+	background-color: #2F4F4F;
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px #000000;
+	
+	bottom: 0;
 }
