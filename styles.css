@@ -45,6 +45,9 @@ ul {
   width: 200px;
   background-color: #000000;
   border: 1px solid white;
+  
+  position: fixed;
+  overflow: auto;
 }
 
 li a {
