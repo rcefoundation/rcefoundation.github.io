@@ -1,5 +1,4 @@
 body {
-
 	background-color: black;
 	width: 100%;
 	z-index: 1;
@@ -57,7 +56,6 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color on hover */
 li a:hover {
   background-color: lime;
   color: black;
